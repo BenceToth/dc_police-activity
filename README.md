@@ -6,15 +6,15 @@ Analyzing police activity in Rhode Island using Python's pandas package.
 
 # Analyzing Police Activity with pandas
 
-## Course Description
+## Project Description
 
-### This course explores the Stanford Open Policing Project dataset and analyzes the impact of weather, time of day, reason for traffic stop and gender of driver on police behavior. It covers cleaning messy data, creating visualizations, combining and reshaping datasets, and manipulating time series data.
+### This project explores the Stanford Open Policing Project dataset and analyzes the impact of weather, time of day, reason for traffic stop and gender of driver on police behavior. It covers cleaning messy data, creating visualizations, combining and reshaping datasets, and manipulating time series data.
 
 ### Preparing data for analysis
 
 #### Before beginning the analysis, it is critical to first examine and clean the dataset, to make working with it a more efficient process. This chapter covers fixing data types, handling missing values, and dropping columns and rows while learning about the Stanford Open Policing Project dataset. 
 
-The dataset contains traffic stops by police officers, collected by the Stanford Open Policing Project. It has data on 31 US states. This course focuses on data from the state of Rhode Island. The full data can be downloaded from the project's website at https://openpolicing.stanford.edu/
+The dataset contains traffic stops by police officers, collected by the Stanford Open Policing Project. It has data on 31 US states. This project focuses on data from the state of Rhode Island. The full data can be downloaded from the project's website at https://openpolicing.stanford.edu/
 
 
 ```python
@@ -103,7 +103,7 @@ print(ri.shape)
     
 
 When you know that a specific column will be critical to your analysis, and only a small fraction of rows are missing a value in that column, it often makes sense to remove those rows from the dataset.
-During this course, the `driver_gender` column will be critical to many of our analyses. Because only a small fraction of rows are missing `driver_gender`, we'll drop those rows from the dataset.
+During this project, the `driver_gender` column will be critical to many of our analyses. Because only a small fraction of rows are missing `driver_gender`, we'll drop those rows from the dataset.
 
 
 ```python
